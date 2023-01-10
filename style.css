@@ -7,7 +7,6 @@
 
 .navbar{
     background-color: rgb(181, 228, 255);
-    /* color:rgb(255, 255, 255); */
     display: flex;
     justify-content:space-between;
     align-items: center;
@@ -102,7 +101,7 @@ img{
     list-style: none;
     color: white;
 }
-.listnames{
+.list_names{
     margin: 5px;
     padding: 8px 12px;
     text-align: center;
@@ -111,9 +110,51 @@ img{
     border-radius: 30px;
 }
 
-.listnames:hover{
+.list_names:hover{
     background-color: white ;
     color: rgb(89, 163, 237);
     border-style:outset;
     border-color: rgb(79, 151, 244);
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    padding: 40px 20px;
+}
+
+.contact-details{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 40px;
+}
+
+strong{
+    padding-left: 5px;
+    word-spacing: 8px;
+}
+
+.address{
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    background-color: rgb(41, 106, 149);
+}
+.address-title{
+    align-self: center;
+    padding: 20px;
+    font-size: 25px;
+    color: white;
+}
+
+hr{
+    border: 1px solid  rgb(41, 85, 109);
+}
+
+footer{
+    font-size: 10px;
+    margin: auto;
 }
